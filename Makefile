@@ -1,7 +1,7 @@
 .PHONY: tests
 
 tests:
-	python3 -m unittest tests/*.py
+	python -m unittest tests/*.py
 
 # 容器开发环境
 ## 启动开发环境

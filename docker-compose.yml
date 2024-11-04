@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     volumes:
-      - .:/srv
+      - .:/srv # tip .表示当前目录 :表示目标目录，原本后面的:cached是不必要的
     tty: true
     deploy:
       resources:
